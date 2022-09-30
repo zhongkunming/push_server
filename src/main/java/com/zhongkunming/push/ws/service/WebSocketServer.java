@@ -1,4 +1,4 @@
-package com.zhongkunming.push.service;
+package com.zhongkunming.push.ws.service;
 
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;

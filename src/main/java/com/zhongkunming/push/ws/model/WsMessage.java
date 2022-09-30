@@ -1,4 +1,4 @@
-package com.zhongkunming.push.model;
+package com.zhongkunming.push.ws.model;
 
 import lombok.Data;
 

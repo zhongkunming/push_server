@@ -1,4 +1,4 @@
-package com.zhongkunming.push.service;
+package com.zhongkunming.push.ws.service;
 
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -20,10 +20,10 @@ public class ServerHolder {
 
 
     public void addServer(WebSocketServer server) {
-        SERVER.put(server.getSid(), server);
+        SERVER.put(server.getMid(), server);
     }
 
     public void removeServer(WebSocketServer server) {
-        SERVER.put(server.getSid(), server);
+        SERVER.put(server.getMid(), server);
     }
 }

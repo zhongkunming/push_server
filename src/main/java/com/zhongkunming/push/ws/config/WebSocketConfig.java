@@ -1,4 +1,4 @@
-package com.zhongkunming.push.config;
+package com.zhongkunming.push.ws.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
