@@ -18,12 +18,12 @@ public class WsMessage implements Serializable {
     private String traceId;
 
     // 消息类型
-    private WsMessageType type;
+    private String type;
 
-    // 平台 macos android windows linux ios
+    // 平台 macos android windows linux ios server
     private String platform;
 
     // 数据
-    private Object data;
+    private BaseNotification data;
 
 }
